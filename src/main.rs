@@ -152,7 +152,6 @@ use std::io::stdin;
 
 use rand::prelude::*;
 use util::game::Game;
-use util::input::get_input;
 fn main() {
     println!("Starting the Game!");
     let mut gm = Game::new("Divyanshu".to_string(), "X".to_string());
